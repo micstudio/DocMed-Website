@@ -1,0 +1,292 @@
+.img-responsive {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img-responsive2 {
+  width: 120%;
+  height: auto;
+}
+
+body {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav a {
+  text-decoration: none;
+  color: grey;
+  font-weight: 600;
+  font-family: lato !important;
+  padding: 10px 15px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #202020;
+}
+
+header {
+  min-height: 80px;
+}
+
+header i {
+  color: grey;
+  -webkit-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+
+header i:hover {
+  color: #0081ff;
+  cursor: pointer;
+}
+
+@media (max-width: 1303px) {
+  .social {
+    display: none;
+  }
+  nav {
+    display: inline;
+  }
+}
+
+@media (min-width: 780px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 780px) {
+  nav a {
+    border: 10px solid green;
+    display: none;
+  }
+}
+
+.hamburger .line {
+  width: 50px;
+  height: 5px;
+  background-color: grey;
+  display: block;
+  margin: 8px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.service {
+  background: #83c4ff;
+  min-height: 330px;
+  color: white;
+}
+
+.service div:nth-child(2) {
+  background: #5db2ff;
+  min-height: 330px;
+}
+
+.service .btn {
+  color: white;
+  border: 1px solid white;
+  font-weight: bold;
+}
+
+.service .btn:hover {
+  color: #5db2ff !important;
+  background: white;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  padding: 10%;
+}
+
+.carousel-box2 {
+  position: absolute;
+  top: 30%;
+  left: 20vw;
+  font-family: 'lato', sans-serif;
+  user-select: none;
+  /* supported by Chrome and Opera */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+}
+
+.carousel-box2 h5 {
+  font-size: 4vw !important;
+  font-weight: 900;
+}
+
+.carousel-box2 h6 {
+  font-weight: 300;
+  font-size: 4vw;
+}
+
+.carousel-box2 p {
+  color: grey;
+}
+
+@media (max-width: 776px) {
+  .carousel-item {
+    height: 550px;
+  }
+  .carousel-item img {
+    max-width: 100% !important;
+    min-height: 550px !important;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+.welcome {
+  min-height: 700px;
+}
+
+.welcome .row {
+  position: relative;
+}
+
+.welcome__photo {
+  position: absolute;
+  left: 300px;
+  top: 100px;
+}
+
+.welcome p {
+  color: grey;
+}
+
+.welcome ul {
+  color: grey;
+}
+
+.welcome__title {
+  font-size: 1.3rem;
+  position: relative;
+}
+
+.welcome__title:after {
+  content: "";
+  position: absolute;
+  top: 33px;
+  left: 0;
+  width: 50px;
+  background: #0081ff;
+  height: 2px;
+}
+
+.welcome .btn {
+  color: #5db2ff;
+  border: 1px solid #5db2ff;
+  font-weight: bold;
+}
+
+.welcome .btn:hover {
+  color: #ffffff !important;
+  background: #5db2ff;
+}
+
+@media (max-width: 1202px) {
+  .welcome .welcome__photo {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .welcome img {
+    width: 100%;
+  }
+}
+
+.department {
+  min-height: 600px;
+  background: #f5fbff;
+}
+
+.department h1 {
+  position: relative;
+}
+
+.department h1::after {
+  content: "";
+  position: absolute;
+  top: 55px;
+  left: 45%;
+  width: 10%;
+  height: 2px;
+  background-color: #5DB2FF;
+}
+
+.department p {
+  color: grey;
+}
+
+.department .card {
+  margin: 10px;
+}
+
+.emergency {
+  min-height: 250px;
+  color: white;
+}
+
+.emergency button {
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.emergency button:hover {
+  color: #0081ff;
+  background-color: white;
+}
+
+.emergency__left {
+  min-height: 250px;
+  background: url("images/banner/emergency-1.png") no-repeat 50% 50%/cover;
+  position: s;
+}
+
+.emergency__right {
+  min-height: 250px;
+  background: url("images/banner/emergency-2.png") no-repeat 50% 50%/cover;
+}
+
+.emergency .overlay {
+  position: relative;
+  z-index: 0;
+}
+
+.emergency .overlay::before {
+  position: absolute;
+  content: "";
+  background-color: #5DB2FF;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.footer {
+  color: white;
+  background: #202020;
+}
+
+@media (max-width: 767px) {
+  .service {
+    padding-bottom: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
