@@ -1,6 +1,6 @@
 # DocMed-Website
 
-Template based on Boostrap 4 - construction company website
+Template based on Boostrap 4 - clinnic company website
 
 I made this project for my portfolio.
 
